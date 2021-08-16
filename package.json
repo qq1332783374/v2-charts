@@ -1,6 +1,6 @@
 {
   "name": "v2-charts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "基于 Vue2 和 ECharts 封装的组件库",
   "main": "lib/v2-charts.umd.min.js",
   "keyword": "vue ECharts components",
