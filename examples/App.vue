@@ -1,48 +1,12 @@
 <template>
   <div id="app">
-    aa
-    <!-- <charts :loading="false" width="100%" :empty="false">
-      <chart-title text="这是个图表标题" />
-      <Legend />
-      <tooltip />
-      <x-axis
-        :data="['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']"
-        type="category"
-      />
-      <y-axis type="value" />
-      <series
-        type="bar"
-        name="销量"
-        :data="chartsData"
-        :label="{
-          formatter: function (item) {
-            return '{c}|{b}';
-          },
-        }"
-      />
-      <series type="bar" name="销量1" :data="chartsData1" />
-    </charts>
-    <charts :loading="loading" width="100%" :autoSelect="true"> -->
-    <!-- <Legend left="center" /> -->
-    <!-- <tooltip trigger="item" />
-      <series 
-        type="pie" 
-        name="访问来源" 
-        :data="pieData" 
-        :label="{
-          formatter (item) {
-            return `${item.name}\n ${item.value}`
-          }
-        }"
-      />
-    </charts> -->
     <charts width="100%" height="500px">
       <charts-legend left="center"/>
       <charts-tooltip trigger="item" />
-      <charts-series 
-        type="pie" 
-        name="访问来源" 
-        :data="pieData" 
+      <charts-series
+        type="pie"
+        name="访问来源"
+        :data="pieData"
         :label="{
           formatter (item) {
             return `${item.name}\n ${item.value}`
@@ -50,13 +14,13 @@
         }"
       />
     </charts>
-    <charts :loading="loading" width="100%" height="500px" :autoSelect="true">
+    <charts :loading="loading" width="100%" height="500px">
       <charts-legend left="center"/>
       <charts-tooltip trigger="item" />
-      <charts-series 
-        type="pie" 
-        name="访问来源" 
-        :data="pieData" 
+      <charts-series
+        type="pie"
+        name="访问来源"
+        :data="pieData"
         :label="{
           formatter (item) {
             return `${item.name}\n ${item.value}`
@@ -64,13 +28,13 @@
         }"
       />
     </charts>
-    <charts :loading="loading" width="100%" height="500px" :autoSelect="true">
+    <charts :loading="loading" width="100%" height="500px">
       <charts-legend left="center"/>
       <charts-tooltip trigger="item" />
-      <charts-series 
-        type="pie" 
-        name="访问来源" 
-        :data="pieData" 
+      <charts-series
+        type="pie"
+        name="访问来源"
+        :data="pieData"
         :label="{
           formatter (item) {
             return `${item.name}\n ${item.value}`
@@ -82,25 +46,8 @@
 </template>
 
 <script>
-// import Charts from "./components/charts/index.vue";
-// import ChartTitle from './components/charts/components/chart-title.vue'
-// import Tooltip from "./components/charts/components/tooltip.vue";
-// import Legend from "./components/charts/components/legend.vue";
-// import XAxis from "./components/charts/components/x-axis.vue";
-// import YAxis from "./components/charts/components/y-axis.vue";
-// import Series from "./components/charts/components/series.vue";
-
 export default {
   name: "App",
-  components: {
-    // Charts,
-    // ChartTitle,
-    // Tooltip,
-    // Legend,
-    // XAxis,
-    // YAxis,
-    // Series,
-  },
   data() {
     return {
       aMap: null,
