@@ -1,7 +1,10 @@
 {
-  "name": "vue-echart-components",
+  "name": "v2-charts",
   "version": "0.1.0",
-  "private": true,
+  "description": "基于 Vue2 和 ECharts 封装的组件库",
+  "main": "lib/v2-charts.umd.min.js",
+  "keyword": "vue ECharts components",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
