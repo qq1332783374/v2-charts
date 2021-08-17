@@ -1,10 +1,16 @@
 {
   "name": "v2-charts",
-  "version": "0.1.2",
+  "version": "0.1.3",
+  "author": "tanshangbiao",
   "description": "基于 Vue2 和 ECharts 封装的组件库",
   "main": "lib/v2-charts.umd.min.js",
-  "keyword": "vue ECharts components",
+  "keywords": ["vue2", "vue2 components", "charts", "echarts"],
+  "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:qq1332783374/v2-charts.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
