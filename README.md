@@ -78,7 +78,18 @@ export default {
 
 ## 属性
 
-### Charts 组件
+### Charts 组件Props
+
+| 参数             | 说明                                                         | 类型    | 默认值    |
+| ---------------- | ------------------------------------------------------------ | ------- | --------- |
+| width            | 图表整体宽度                                                 | String  | 300px     |
+| height           | 图表整体高度                                                 | String  | 300px     |
+| loading          | 加载状态                                                     | Boolean | false     |
+| loadingText      | 加载状态文本                                                 | String  | 加载中... |
+| empty            | 空状态                                                       | Boolean | false     |
+| emptyText        | 空状态文本                                                   | String  | 暂无数据  |
+| autoSelect       | 图表项自动选中                                               | Boolean | false     |
+| chartExpandAttrs | 图表拓展属性，请参考官网 [配置项](https://echarts.apache.org/zh/option.html#title) | Object  | 无        |
 
 
 
